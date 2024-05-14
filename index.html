@@ -1,72 +1,79 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的生活经历</title>
-    <body>
-    <div class="cover">
-        <h1>我的生活经历</h1>
-    </div>
-    <div class="content">
-        <p>班级：自动化2103班</p>
-        <p>姓名：李林泽</p>
-        <p>学号：21811058</p>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的经历</title>
+<style>
+    /* 全铺封面样式 */
+    body {
+        margin: 0;
+        padding: 0;
+        background: url('https://www.qau.edu.cn/userfiles/image/zhuye/2016/11/20161118153321162.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 
-        <h2>我的经历</h2>
-        <p>
-            <a href="https://LLZ2245875.github.io/MHX/WDJX.html">我的家乡</a>
-        </p>
-        <p>
-            <a href="https://LLZ2245875.github.io/MHX/WDXXSHJTN.html">我的小学生活及童年</a>
-        </p>
-        <p>
-            <a href="https://LLZ2245875.github.io/MHX/WDZXSH.html">我的中学生活</a>
-        </p>
-        <p>
-            <a href="https://LLZ2245875.github.io/MHX/WDDXSH.html">我的大学生活</a>
-        </p>
-    </div>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .cover {
-            background-image: url('https://www.qau.edu.cn/userfiles/image/zhuye/2016/11/20161118153321162.jpg'); /* 替换为您的封面图像路径 */
-            background-size: cover;
-            background-position: center;
-            height: 1024px;
-            width:100%;
-            display:flex;
-            justify-content: center;
-            align-items: center;
-            color: white; /* 如果封面图像较暗，可以使用白色文字 */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 添加文字阴影以改善可读性 */
-        }
-        .cover h1 {
-            margin: 0;
-            padding: 10px;
-            background-color: rgba(0, 0, 0, 0.5); /* 半透明的背景色以改善封面上的文字可读性 */
-            border-radius: 10px;
-        }
-        .content {
-            margin: 20px;
-        }
-        p {
-            margin-bottom: 10px;
-        }
-        a {
-            text-decoration: none;
-            color: #007BFF;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    /* 主页面和链接样式 */
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    a {
+        margin: 10px 0;
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 5px;
+    }
+
+    /* 返回主页面按键样式 */
+    .back-to-home {
+        margin-top: 20px;
+    }
+
+    /* 关闭主页面的提示（实际关闭通过浏览器功能） */
+    .close-page {
+        display: none; /* 通常不显示这个元素，因为它只是提示用户如何关闭页面 */
+    }
+</style>
 </head>
+<body>
+
+<div class="container">
+    <h1>我的经历</h1>
+<div class="info-section">
+        <span>班级：</span>
+        <p>自动化2103班</p>
+        <span>姓名：</span>
+        <p>李林泽</p>
+        <span>学号：</span>
+        <p>21811058</p>
+    </div>
+    <p>这里是我的经历...</p>
+
+    <a href="https://LLZ2245875.github.io/MHX/WDJX.html">我的家乡</a>
+    <a href="https://LLZ2245875.github.io/MHX/WDXXSHJTN.html">我的小学生活及童年</a>
+    <a href="https://LLZ2245875.github.io/MHX/WDZXSH.html">我的中学生活</a>
+    <a href="https://LLZ2245875.github.io/MHX/WDDXSH.html">我的大学生活</a>
+
+    <button class="back-to-home" onclick="history.back()">返回主页面</button>
+
+    <p class="close-page">要关闭页面，请点击浏览器窗口的关闭按钮或使用快捷键（如Ctrl+W或Cmd+W）。</p>
+</div>
+
+<!-- JavaScript代码（如果有需要的话） -->
+<script>
+    // 这里可以添加JavaScript代码来处理页面交互，但目前没有特定需求
+</script>
 
 </body>
 </html>
