@@ -8,20 +8,8 @@
         body {
             margin: 0;
         }
-
     </style>
-</head>
-<body>
-    <div class="cover">
-        <h1>我的生活经历</h1>
-    </div>
-    <div class="content">
-        <p>班级：自动化2103班</p >
-        <p>姓名：李林泽</p >
-        <p>学号：21811058</p >
-
-        <h2>我的经历</h2>
-        
+</head>    
 </body>
   <a href="https://github.com/LLZ2245875/MHX/blob/main/WDJX.html">我的家乡</a>
   <a href="https://github.com/LLZ2245875/MHX/blob/main/WDXXSHJTN.html">我的小学及童年</a>
